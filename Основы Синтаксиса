@@ -1,0 +1,31 @@
+def convert(x):
+ tf=(9/5)*x+32
+ return tf
+while True:
+ tc=input('t в цельсиях ')
+ if tc=='':
+     break #или exit()
+ else :
+     tc=int(tc)
+ tf=convert(tc)
+ print('t в цельсиях',tc,'t в фаренгейтах',tf)
+ 
+ Лаба 2
+def square (sd):
+
+    return (4*sd, sd**2)
+
+ 
+
+result = square (int (input ("Введите сторону квадрата: ")))
+
+print (result)
+
+Лаба 3
+import statistics
+a = int(input ('от'))
+b = int(input ('до'))
+result = list(range(a,b))
+print(statistics.mean(result))
+
+ 
